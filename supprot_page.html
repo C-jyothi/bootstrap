@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Page FAQ</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <style>
+        body{
+            background:#f4f4f4;
+        }
+
+        .card{
+            box-shadow:0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .support-card{
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+
+    <!-- FAQ Section -->
+    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+
+    <div id="faq">
+
+        <!-- Question 1 -->
+        <div class="card mb-2">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#q1">
+                    How can I reset my password?
+                </a>
+            </div>
+
+            <div id="q1" class="collapse" data-parent="#faq">
+                <div class="card-body">
+                    You can reset your password using the "Forgot Password" option on the login page.
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="card mb-2">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#q2">
+                    How do I contact support?
+                </a>
+            </div>
+
+            <div id="q2" class="collapse" data-parent="#faq">
+                <div class="card-body">
+                    You can contact support through email, phone, or live chat.
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="card mb-2">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#q3">
+                    What are the support timings?
+                </a>
+            </div>
+
+            <div id="q3" class="collapse" data-parent="#faq">
+                <div class="card-body">
+                    Our customer support team is available 24/7.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Support Agents Section -->
+    <h2 class="text-center mt-5 mb-4">Customer Support Agents</h2>
+
+    <div class="row">
+
+        <!-- Agent 1 -->
+        <div class="col-md-4">
+            <div class="card support-card text-center p-3">
+                <h4>John Mathew</h4>
+                <p>Technical Support</p>
+
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        Quick Actions
+                    </button>
+
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Call</a>
+                        <a class="dropdown-item" href="#">Email</a>
+                        <a class="dropdown-item" href="#">Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Agent 2 -->
+        <div class="col-md-4">
+            <div class="card support-card text-center p-3">
+                <h4>Sarah Thomas</h4>
+                <p>Billing Support</p>
+
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        Quick Actions
+                    </button>
+
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Call</a>
+                        <a class="dropdown-item" href="#">Email</a>
+                        <a class="dropdown-item" href="#">Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Agent 3 -->
+        <div class="col-md-4">
+            <div class="card support-card text-center p-3">
+                <h4>David Kumar</h4>
+                <p>Customer Care</p>
+
+                <div class="dropdown">
+                    <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                        Quick Actions
+                    </button>
+
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Call</a>
+                        <a class="dropdown-item" href="#">Email</a>
+                        <a class="dropdown-item" href="#">Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
